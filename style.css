@@ -4,8 +4,11 @@ body{
 }
 
 section{
-    display: flex;
     margin-bottom: 150px;
+}
+
+.flex-container{
+    display: flex;
 }
 
 .top-banner{
@@ -23,17 +26,21 @@ h1{
     font-size: 50px;
 }
 
+p{
+    color:#696972;
+}
+
 .orange-color{
     color: orange;
 }
 
 .half-width img{
-    width: 80%;
+    width: 85%;
 }
 
 .hire-link{
     text-decoration: none;
-    background-image: linear-gradient(#e0e02dfa,orangered);
+    background-image: linear-gradient(to right, #d1c4c4,salmon);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
@@ -46,8 +53,47 @@ h1{
     background-position: right;
 }
 
-.dream-big .half-width{
-    padding-right: 20px;
+.dream-part{
+    padding-left: 100px;
 }
 
+.dream-big img{
+    width: 92%;
+}
 
+h2{
+    font-size: 40px;
+}
+
+.experince-item{
+    width: 40%;
+    padding-left: 7%;
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+#stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+
+#footer{
+    text-align: center;
+    margin-bottom: 0;
+}
