@@ -3,10 +3,15 @@ body{
     margin: 0;
 }
 
-.top-banner{
+section{
     display: flex;
+    margin-bottom: 150px;
+}
+
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 140px;
 }
 
 .half-width{
@@ -28,9 +33,21 @@ h1{
 
 .hire-link{
     text-decoration: none;
-    background-image:linear-gradient(orange,tomato);
+    background-image: linear-gradient(#e0e02dfa,orangered);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     border-radius: 5px;
 }
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-big .half-width{
+    padding-right: 20px;
+}
+
+
